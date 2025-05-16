@@ -57,6 +57,23 @@
       padding: 25px;
       color: white;
     }
+      .responsive-box {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      background-color: powderblue;
+      padding: 20px;
+      color: black;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .responsive-box {
+        background-color: pink; 
+        color: grey;
+        text-align: center;
+      }
+    }
     </style>
 
 </head>
@@ -83,6 +100,10 @@
     <div class="grid-item">tu</div>
     <div class="grid-item">tri</div>
     <div class="grid-item">for</div>
+  </div>
+    <h2>6. Responsive Design</h2>
+  <div class="responsive-box">
+    pwis ubah ukuran <i>window</i>-ku 
   </div>
 </body>
 </html>
