@@ -74,6 +74,17 @@
         text-align: center;
       }
     }
+      .animated-box {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      margin: 20px auto;
+      transition: transform 5s; 
+    }
+
+    .animated-box:hover {
+      transform: rotate(100deg) scale(1.2);
+    }
     </style>
 
 </head>
@@ -105,5 +116,7 @@
   <div class="responsive-box">
     pwis ubah ukuran <i>window</i>-ku 
   </div>
+  <h2>7. Transformasi dan Animasi</h2>
+  <div class="animated-box"></div>
 </body>
 </html>
