@@ -44,7 +44,19 @@
       padding: 30px;
       color: grey;
     }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 10px;
+      background-color: pink;
+      padding: 10px;
+    }
 
+    .grid-item {
+      background-color: palevioletred;
+      padding: 25px;
+      color: white;
+    }
     </style>
 
 </head>
@@ -64,6 +76,13 @@
     <div class="flex-item">wan</div>
     <div class="flex-item">tu</div>
     <div class="flex-item">tri</div>
+  </div>
+<h2>5. CSS Grid</h2>
+  <div class="grid-container">
+    <div class="grid-item">wan</div>
+    <div class="grid-item">tu</div>
+    <div class="grid-item">tri</div>
+    <div class="grid-item">for</div>
   </div>
 </body>
 </html>
